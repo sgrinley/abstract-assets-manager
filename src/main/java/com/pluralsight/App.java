@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         ArrayList<Asset> assets = new ArrayList<>();
         assets.add(new House(
-                "John's Summer House",
+                "Mar's Summer House",
                 "April 27th, 2022",
                 500_000.,
                 "42 Universe Way",
@@ -16,7 +16,7 @@ public class App {
                 10000
         ));
         assets.add(new House(
-                "John's Regular House",
+                "Mar's Regular House",
                 "April 27th, 2042",
                 1_000_000.,
                 "43 Universe Way",
@@ -25,7 +25,7 @@ public class App {
                 50000
         ));
         assets.add(new Vehicle(
-                "John's Definitely Real Car",
+                "Mar's Definitely Real Car",
                 "April 27th, 2015",
                 50_000.,
                 "Toyota Avalon",
@@ -33,7 +33,7 @@ public class App {
                 10000
         ));
         assets.add(new Vehicle(
-                "John's Definitely Real Second Car",
+                "Mar's Definitely Real Second Car",
                 "April 27th, 2016",
                 60_000.,
                 "Hyundai Elantra",
